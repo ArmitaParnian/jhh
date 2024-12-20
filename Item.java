@@ -9,6 +9,7 @@ public class Item {
                         .filter( x -> x%2==1)
             .map(x ->x*x)
             .reduce(0,(Integer,::Sum);
+            System.out.println("hii");
 }
         }
 }
